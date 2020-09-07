@@ -1,0 +1,27 @@
+@font-face{
+    src: url(../../../font-face/Inter-Regular.woff) format('woff'),
+         url(../../../font-face/Inter-Regular.woff2) format('woff2');
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+.cover__subtitle{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #FFFFFF;
+margin:0;
+max-width: 360px;
+z-index: 2;
+}
+
+@media (max-width: 767px){
+    .cover__subtitle{
+        font-size: 14px;
+        line-height: 16px;
+        max-width: 288px;
+    }
+}

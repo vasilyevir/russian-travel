@@ -1,0 +1,16 @@
+@font-face{
+    src: url(../../../font-face/Inter-Regular.woff) format('woff'),
+         url(../../../font-face/Inter-Regular.woff2) format('woff2');
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+.place__link{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+text-decoration-line: underline;
+color: #FFFFFF;
+}

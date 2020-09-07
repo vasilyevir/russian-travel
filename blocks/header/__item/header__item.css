@@ -1,0 +1,38 @@
+@font-face{
+    src: url(../../../font-face/Inter-Regular.woff) format('woff'),
+         url(../../../font-face/Inter-Regular.woff2) format('woff2');
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+.header__item{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+.header__pseudo-item{
+    display: inline-block;
+vertical-align: middle; 
+height: 28px; 
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+text-align: right;
+color: #FFFFFF;
+}
+
+.header__item:checked + .header__pseudo-item{
+    text-decoration: underline;
+}
+
+@media (max-width: 767px){
+    .header__pseudo-item{
+        font-size: 18px;
+        line-height: 20px;
+    }
+}

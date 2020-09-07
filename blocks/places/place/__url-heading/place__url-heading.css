@@ -1,0 +1,23 @@
+@font-face{
+    src: url(../../../font-face/Inter-Regular.woff) format('woff'),
+         url(../../../font-face/Inter-Regular.woff2) format('woff2');
+    font-family: 'Inter';
+    font-weight: normal;
+}
+
+.place__url-heading{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 20px;
+letter-spacing: 0.2em;
+color: #AAAAAA;
+}
+
+@media (max-width: 1023px){
+    .place__url-heading{
+        line-height: 12px;
+    }
+}
+

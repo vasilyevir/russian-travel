@@ -1,0 +1,16 @@
+@font-face{
+    src: url(../../../font-face/Inter-Black.woff) format('woff'),
+         url(../../../font-face/Inter-Black.woff2) format('woff2');
+    font-family: 'Inter';
+    font-weight: bold;
+}
+
+.intro__list{
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 12px;
+line-height: 18px;
+color: #FFFFFF;
+margin: 0;
+}
