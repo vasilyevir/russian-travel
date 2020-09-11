@@ -1,0 +1,18 @@
+.footer__link{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+text-align: right;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+@media (max-width: 767px){
+    .footer__link{
+        text-align: start;
+        font-size: 24px;
+    }
+}
