@@ -1,12 +1,4 @@
 .header__item{
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-}
-
-.header__pseudo-item{
     display: inline-block;
 vertical-align: middle; 
 height: 28px; 
@@ -17,14 +9,12 @@ font-size: 24px;
 line-height: 28px;
 text-align: right;
 color: #FFFFFF;
+text-decoration: none;
 }
 
-.header__item:checked + .header__pseudo-item{
-    text-decoration: underline;
-}
 
 @media (max-width: 767px){
-    .header__pseudo-item{
+    .header__item{
         font-size: 18px;
         line-height: 20px;
     }
