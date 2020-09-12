@@ -6,3 +6,9 @@
     margin-bottom: 6px;
     gap:18px;
 }
+
+@media (max-width: 767px){
+    .header__lang-link{
+        margin-bottom: 0;
+    }
+}
