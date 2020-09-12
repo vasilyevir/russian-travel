@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     min-height: 740px;
-    background-image: url(../../../images/cover.png).png);
+    background-image: url(../../../images/cover.png.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
