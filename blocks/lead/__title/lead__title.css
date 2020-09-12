@@ -1,13 +1,10 @@
 .lead__title{
     margin: 0 auto;
     max-width: 700px;
-    font-family: Inter;
-    font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     text-align: center;
-    color: #FFFFFF;
 }
 
 @media (max-width: 768px){
