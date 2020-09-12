@@ -1,0 +1,14 @@
+.page{
+    background-color:  #2A2C2F;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    max-width: 1184px;
+    margin: 0 auto;
+}
+@media (max-width: 1279px){
+    .page{
+        max-width: 100%;
+    }
+}
