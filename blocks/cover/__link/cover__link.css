@@ -12,6 +12,7 @@
     margin: 0 auto 92px;
     text-decoration: none;
     cursor: pointer;
+    color: white;
 }
 
 .cover__link::before{
